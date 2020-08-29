@@ -1,0 +1,190 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5,h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.5;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+/* Container */
+
+.container {
+	max-width: 1330px;
+	margin: 0 auto;
+	padding: 0 32px;
+}
+
+/* General */
+
+.flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+/* Header */
+
+.header {
+	border-bottom: 1px solid black;
+	background-image: linear-gradient(to right,#fff,#FEFBFB,#FFF7FF,#FFF7FF,#FCF5FC,#FCF5FC,#FCF2FC,#FEEFFE,#FEDDFE,#FDDAFD,#FDCBFF,#FDC5FF,#FAB8FC,#FAB8FC,#FAB8FC,#FAB8FC,#FAA1FD,#F996FD,#F784FB,#F875FD,#F661FC);
+	padding: 20px 0;
+}
+.logo img {
+	color: red;
+}
+
+.nav a {
+	text-decoration: none;
+	margin: 10px;
+	text-transform: uppercase;
+	color: white;
+}
+
+/* Custom Styles */
+
+.hero {
+	padding: 20px 0;
+	background-image: linear-gradient(to right,#fff,#FEFBFB,#FFF7FF,#FFF7FF,#FCF5FC,#FCF5FC,#FCF2FC,#FEEFFE,#FEDDFE,#FDDAFD,#FDCBFF,#FDC5FF,#FAB8FC,#FAB8FC,#FAB8FC,#FAB8FC,#FAA1FD,#F996FD,#F784FB,#F875FD,#F661FC);
+}
+.col-1-2 {
+	width: 48%;
+}
+.col-1-2 h2 {
+	color: #0A2524;
+	font-size: 44px;
+}
+.col-1-2 p {
+	color: #AD3236;
+	font-size: 28px;
+}
+.col-1-2 img {
+	width: 100%;
+	height: 300px;
+}
+.section {
+	background-color: #9E75BA;
+}
+.col-2-1 {
+	color: #521717;
+}
+.col-2-1 h3 {
+	font-size: 28px;
+}
+.col-2-1 p {
+	font-size: 18px;
+}
+.col-2-1 img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+.center {
+	align-items: center;
+	justify-content: center;
+}
+.article {
+	padding: 50px 0;
+}
+.col-2-3 {
+	padding: 20px;
+	/*background-image: url(../media/download.png);*/
+	color: black;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: 100%;
+}
+.col-2-3 h2 {
+	font-size: 44px;
+	color: #AE3D69;
+}
+.col-2-3 p {
+	font-size: 34px;
+	color: black;
+}
+.col-2-3 img {
+	opacity: 0.5;
+	height: 150px;
+	width: 100%;
+}
+/* Memories */
+.center {
+	align-items: center;
+}
+.col p {
+	color: #AD3236;
+	font-size: 48px;
+}
+.col-3-4 {
+	width: 48%;
+}
+.col-3-4 p {
+	color: #AD3236;
+	font-size: 38px;
+}
+.col-3-4 img {
+	width: 100%;
+	height: 300px;
+	object-fit: contain;
+	
+}
+.right {
+	padding: 20px 0;
+	background-image: linear-gradient(to right,#fff,#F6EBFA,#F4EAF7,#F0E6F3,#EADDEE,#E0CCE6,#DBC7E0,#DCC5E5,#CEB0DB,#C7A4D6,#C39BD4,#C296D4,#B688C9,#BB8BCF,#B98ACD,#B37CCA,#A96FC1,#A266BB,#9D59B9,#9C54BA,#9946BC);
+}
+.left {
+	padding: 20px 0;
+	background-image: linear-gradient(to left,#fff,#F6EBFA,#F4EAF7,#F0E6F3,#EADDEE,#E0CCE6,#DBC7E0,#DCC5E5,#CEB0DB,#C7A4D6,#C39BD4,#C296D4,#B688C9,#BB8BCF,#B98ACD,#B37CCA,#A96FC1,#A266BB,#9D59B9,#9C54BA,#9946BC);
+}
+
+
+
+
+
+
+
+
+
+
+
+
